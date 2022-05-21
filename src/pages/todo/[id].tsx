@@ -1,6 +1,6 @@
 import { GRAPHQL_AUTH_MODE } from "@aws-amplify/auth";
 import { API, withSSRContext } from "aws-amplify";
-import { GetServerSideProps, GetStaticPaths, GetStaticProps } from "next";
+import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 import {
 	DeleteTodoInput,
